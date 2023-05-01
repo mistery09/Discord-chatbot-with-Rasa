@@ -3,11 +3,9 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
+    - hallo
     - hi
-    - hello there
-    - good morning
+    - hello
     - good evening
     - moin
     - hey there
@@ -16,6 +14,15 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - guten Morgen
+    - guten tag 
+    - guten Nachmittag
+    - guten Vormittag
+    - was geht
+    - hey
+    - na was geht
+    - gruess dich
+    - servus
 
 - intent: goodbye
   examples: |
@@ -29,63 +36,58 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - tschau
+    - tschüssi
+    - bis später
+    - bis bald
+    - bye bye
+    - bis morgen
+    - bis nächste woche
+    - bis zum nächsten mal
+    - bis heute abend
+    - bis heute mittag
+    - bis morgen früh
+
 
 - intent: affirm
   examples: |
+    - klar
+    - ja
     - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - na klar
+    - natuerlich
+    - na logo
+    - sicher
+    - na was den sonst
+    - ich bin mit dabei
 
 - intent: deny
   examples: |
     - no
-    - n
+    - nope
     - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - nein
+    - nee
+    - keine chance
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - bist du ein bot?
+    - bist du eine ki?
+    - bist du ein mensch
+    - kommst du aus terminator?
+    - bist du eine grausame und tödliche ki?
+    - bist du ein Roboter?
+    - hast du gefuele?
+
+- intent: tell_name
+  examples: |
+    - I am [Simon](name)
+    - Nenn mich [Vadim](name)
+    - Ich heiße [Aline](name)
+    - Ich bin die [Irene](name)
+    - Ich bin der [Max](name)
+    - Ich bin dein Gebieter [Leon](name)
+    - Ich bin dein Herr [Thomas](name)
+
