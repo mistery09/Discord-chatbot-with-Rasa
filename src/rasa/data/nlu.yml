@@ -71,6 +71,17 @@ nlu:
     - keine chance
 
 
+- intent: tell_name
+  examples: |
+    - I am [Simon](name)
+    - Nenn mich [Vadim](name)
+    - Ich heiße [Aline](name)
+    - Ich bin die [Irene](name)
+    - Ich bin der [Max](name)
+    - Ich bin dein Gebieter [Leon](name)
+    - Ich bin dein Herr [Thomas](name)
+
+
 - intent: bot_challenge
   examples: |
     - bist du ein bot?
@@ -81,13 +92,5 @@ nlu:
     - bist du ein Roboter?
     - hast du gefuele?
 
-- intent: tell_name
-  examples: |
-    - I am [Simon](name)
-    - Nenn mich [Vadim](name)
-    - Ich heiße [Aline](name)
-    - Ich bin die [Irene](name)
-    - Ich bin der [Max](name)
-    - Ich bin dein Gebieter [Leon](name)
-    - Ich bin dein Herr [Thomas](name)
+
 

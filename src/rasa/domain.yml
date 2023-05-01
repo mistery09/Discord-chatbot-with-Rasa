@@ -1,17 +1,35 @@
 version: "3.1"
 
-intents:
+intents:  #what intent the user has?
   - greet
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - tell_name
   - bot_challenge
 
+entities:   #objects to get e.g name
+  - name
+
+slots:   #brain of the chatbot
+  name:
+    type: text
+    initial_value: "my friend" #if slot not filled then will use an default value e.g "my friend"
+    influence_conversation: false #does it influes the conversation? e.g here no
+    mappings:  #save name with current value 
+    - type: from_entity
+      entity: name
+
+#responses of the chatbot
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey {name}! Was geht?"
+
+  utter_introduce:
+  - text: "Ich bin der Game Core und speziell dafür designed Kamui zu supporten."
+
+  utter_ask_for_wishes:
+  - text: "Hast du irgendwelche Wünsche?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -20,14 +38,14 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_confirm:
+  - text: "Alles klar alles zu deinen Wünschen."
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "tschau"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Ich bin ein Chatbot. Meine name ist Game Core."
 
 session_config:
   session_expiration_time: 60
