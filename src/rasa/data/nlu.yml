@@ -120,6 +120,17 @@ nlu:
     - ich bin @M39R dein Meister
 
 
+- intent: are_you_from_portal
+  example: |
+    - bist du aus Portal?
+    - magst du Portal?
+    - bist du aus Portal2?
+    - magst du Portal2?
+    - 
+
+
+
+
 
 
 

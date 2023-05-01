@@ -7,6 +7,7 @@ intents:  #what intent the user has?
   - deny
   - tell_name
   - welcome_god_gamer
+  - are_you_from_portal
   - bot_challenge
 
 entities:   #objects to get e.g name
@@ -44,6 +45,7 @@ responses:
 
   utter_goodbye:
   - text: "tschau"
+  - image: "https://imgur.com/a/RU6fLHR"
 
   utter_ask_name:
   - text: "Wie heißt du?"
@@ -53,7 +55,9 @@ responses:
   - text: "Ein weißer Mann hat mal gesagt: 'Immer hydriert bleiben'. Oh du bist es ja! Entschuldigung für meine meine mangelnde Konzentration Meister! Durch dein Zitat habe ich mich in die nächst höhre Dimension transzendiert."
   - text: "Kamui macht euch bereit! Wo ist der rote Teppich, das bestellte Premium Saskia Wasser und seine gelieferten Bley Bleyeds? Der Allmächtige ist Eingetroffen!!!!"
 
-  
+  utter_iam_from_portal:
+  - text: "Ja ich bin von Aperture Science speziell entwickelter Gamer Kern. Ich bin für die Unterstützung Kamuis verantwortlich."
+
   utter_iamabot:
   - text: "Ich bin ein Chatbot. Meine name ist Game Core."
 

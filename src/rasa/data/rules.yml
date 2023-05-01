@@ -2,6 +2,11 @@ version: "3.1"
 
 rules:
 
+- rule: User asks about bot if it comes from portal
+  steps:
+    - intent: are_you_from_portal
+    - action: utter_iam_from_portal
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
