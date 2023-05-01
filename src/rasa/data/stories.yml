@@ -2,22 +2,15 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: intro
   steps:
   - intent: greet
+  - action: utter_ask_name
+  - intent: tell_name
+    entities:
+    - name: "Marco"
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
 
 - story: sad path 2
   steps:
@@ -28,3 +21,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: god gamer
+  steps:
+  - intent: welcome_god_gamer
+  - action: utter_welcome_god_gamer

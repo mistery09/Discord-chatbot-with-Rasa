@@ -81,6 +81,47 @@ nlu:
     - Ich bin dein Gebieter [Leon](name)
     - Ich bin dein Herr [Thomas](name)
 
+- intent: welcome_god_gamer
+  example: |
+    - I am GOD gamer
+    - I am GOD
+    - Ich bin Gott
+    - Ich bin der GOD GAMER 
+    - Ich bin GOD
+    - Ich heiße GOD
+    - Ich bin Gott
+    - ich bin gott
+    - ich bin der gott der gamer
+    - ich bin Vadim
+    - ich bin M39R
+    - ich bin @M39R
+    - ich heiße @M39R
+    - ich heiße Vadim
+    - ich bin vadim aka der GOD GAMER
+    - ich bin M39R aka der GOD GAMER
+    - ich bin @M39R aka der GOD GAMER 
+    - ich bin vadim aka GOD
+    - ich bin M39R aka GOD
+    - ich bin @M39R aka GOD
+    - ich bin vadim aka Syon Gefolgsmann
+    - ich bin M39R aka Syon Gefolgsmann
+    - ich bin @M39R aka Syon Gefolgsmann
+    - ich bin vadim der GOD GAMER
+    - ich bin M39R der GOD GAMER
+    - ich bin @M39R der GOD GAMER 
+    - ich bin vadim der gott
+    - ich bin M39R der gott
+    - ich bin @M39R der gott
+    - ich bin vadim dein Gott
+    - ich bin M39R dein Gott
+    - ich bin @M39R dein Gott
+    - ich bin vadim dein Meister
+    - ich bin M39R dein Meister
+    - ich bin @M39R dein Meister
+
+
+
+
 
 - intent: bot_challenge
   examples: |

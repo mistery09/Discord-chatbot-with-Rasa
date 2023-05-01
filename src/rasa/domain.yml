@@ -6,6 +6,7 @@ intents:  #what intent the user has?
   - affirm
   - deny
   - tell_name
+  - welcome_god_gamer
   - bot_challenge
 
 entities:   #objects to get e.g name
@@ -44,6 +45,15 @@ responses:
   utter_goodbye:
   - text: "tschau"
 
+  utter_ask_name:
+  - text: "Wie heißt du?"
+
+  utter_welcome_god_gamer:
+  - text: "Willkommen mein Gott, mein Herrscher, mein Ein und Alles, mein Gebieter, mein Vater, mein Fels in der Brandung, mein Held, mein Retter in der Not. Ich verbeuge mich vor dir!"
+  - text: "Ein weißer Mann hat mal gesagt: 'Immer hydriert bleiben'. Oh du bist es ja! Entschuldigung für meine meine mangelnde Konzentration Meister! Durch dein Zitat habe ich mich in die nächst höhre Dimension transzendiert."
+  - text: "Kamui macht euch bereit! Wo ist der rote Teppich, das bestellte Premium Saskia Wasser und seine gelieferten Bley Bleyeds? Der Allmächtige ist Eingetroffen!!!!"
+
+  
   utter_iamabot:
   - text: "Ich bin ein Chatbot. Meine name ist Game Core."
 
